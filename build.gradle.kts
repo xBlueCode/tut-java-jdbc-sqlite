@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    compile("org.xerial", "sqlite-jdbc", "3.21.0")
     testCompile("junit", "junit", "4.12")
 }
 
